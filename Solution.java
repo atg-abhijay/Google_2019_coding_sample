@@ -154,7 +154,7 @@ class Solution {
              * the value for the Vertex object.
              */
             v.shortestDistance = startVertex.shortestDistance + e.weight;
-            System.out.println(startVertex.number + ", " + v.number + ", " + v.shortestDistance);
+            // System.out.println(startVertex.number + ", " + v.number + ", " + v.shortestDistance);
             predecessors[v.number] = startVertex;
         }
     }
