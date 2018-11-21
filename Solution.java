@@ -130,6 +130,10 @@ class Solution {
             ancestorAtDistanceD[i] = currentNode;
         }
 
+        for(int i = 0; i < ancestorAtDistanceD.length; i++) {
+            System.out.print(ancestorAtDistanceD[i] + " ");
+        }
+        System.out.println();
         return ancestorAtDistanceD;
 
     }
